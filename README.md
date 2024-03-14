@@ -2,7 +2,7 @@
 Challenge desenvolvido para o curso de formação Iniciante em Programação T6 - ONE promovido pela Oracle Next Education em parceria com a Alura LATAM.
 
 ## Funcionalidades:
-- **Criptografar**: Funcão que permite criptografar o texto digitado.
+- **Criptografar**: Função que permite criptografar o texto digitado.
 - **Descriptografar**: Função que permite descriptografar o texto criptografado.
 - **Copiar texto**: Função que permite copiar para a área de tranferência o texto descriptografado.
 
