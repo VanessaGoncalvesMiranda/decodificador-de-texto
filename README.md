@@ -3,7 +3,7 @@ Challenge desenvolvido para o curso de formação Iniciante em Programação T6 
 
 ## Funcionalidades:
 - **Criptografar**: Funcão que permite criptografar o texto digitado.
-- **Descriptografar**: Função que descriptografar o texto criptografado.
+- **Descriptografar**: Função que permite descriptografar o texto criptografado.
 - **Copiar texto**: Função que permite copiar para a área de tranferência o texto descriptografado.
 
 ## Tecnologias utilizadas:
