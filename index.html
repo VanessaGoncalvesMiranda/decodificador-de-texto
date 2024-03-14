@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+
+    <main class="area__digitacao">
+      <img class="logo" src="assets/logo-Alura.png" alt="Logo Alura" />
+
+      <section class="area__digitacao__direita">
+        <h1>Decodificador de texto</h1>
+        <textarea
+          class="text-area-digitacao-direita"
+          rows="15"
+          cols="auto"
+          placeholder="Digite seu texto"
+        ></textarea>
+
+        <div class="informacao">
+          <img
+            class="informacao-icone"
+            src="assets/icons-exclamação.png"
+            alt="Ponto de exclamação"
+          />
+          <h6 class="informacao-texto">
+            Apenas letras minúsculas e sem acento.
+          </h6>
+        </div>
+
+        <div class="button">
+          <button class="btn-criptografa" onclick="btnEncriptar()">
+            Criptografar
+          </button>
+          <button class="btn-descriptografa" onclick="btnDesencriptar()">
+            Descriptografar
+          </button>
+        </div>
+      </section>
+
+      <section class="area__digitacao__esquerda">
+        <img
+          class="imagem-menino"
+          src="assets/imagem-menino.png"
+          alt="Uma pessoa olhando com uma lupa"
+        />
+        <textarea
+          class="text-area-digitacao-esquerda"
+          cols="20"
+          rows="10"
+        ></textarea>
+        <div class="area__digitacao__esquerda__mensagem">
+          <p class="area__digitacao__esquerda__mensagem__1">
+            Nenhuma mensagem encontrada
+          </p>
+          <p class="area__digitacao__esquerda__mensagem__2">
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
+        </div>
+        <div>
+          <button class="btn-copiar" onclick="copiar_texto()">Copiar</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <p>Desenvolvido por 💻 Vanessa Miranda 🖱</p>
+      <a href="https://github.com/VanessaGoncalvesMiranda" target="_blank"
+        ><img src="assets/github.png" alt="GitHub"
+      /></a>
+
+      <a
+        href="https://www.linkedin.com/in/vanessa-goncalves-miranda-dev/"
+        target="_blank"
+      >
+        <img src="assets/linkedIn.png" />
+      </a>
+    </footer>
+
+    <script src="decod.js"></script>
+  </body>
+</html>
